@@ -46,7 +46,7 @@ class PinsController < ApplicationController
      redirect_to pins_url, notice: 'Pin was successfully destroyed.' 
      
     end
-  end
+  
 
   private
     # Use callbacks to share common setup or constraints between actions.
